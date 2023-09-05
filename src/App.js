@@ -73,7 +73,7 @@ handleSearch = (event) => {
       </div>
       <div className="map">
       <GoogleMapReact
-      // removed google maps key for security.type it in when using the app
+      // google map key removed for security purposes, type in when using the app
         bootstrapURLKeys={{ key: ""}}
         center={center}
         zoom={11}
